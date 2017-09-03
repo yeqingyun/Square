@@ -8,6 +8,10 @@
   },
   "author": "yeqy",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeqingyun/Square"
+  },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.4",
