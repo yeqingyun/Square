@@ -246,7 +246,7 @@ SquareFactory.prototype.make = function (index, dir) {
 
     s.orgin.x = 0
     s.orgin.y = 3
-    s.class = classes[Math.ceil(Math.random() * 9) - 1]
+    s.class = classes[Math.ceil(Math.random() * classes.length) - 1]
 
     s.rotate(dir)
 
