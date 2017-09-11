@@ -213,9 +213,8 @@ Square7.prototype = new Square()
 
 
 var SquareFactory = function () { }
-
+var classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
 SquareFactory.prototype.make = function (index, dir) {
-    var classes = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']
     var s
     index += 1
     switch (index) {
